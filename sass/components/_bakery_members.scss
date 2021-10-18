@@ -1,0 +1,150 @@
+/*================================================
+            bakery_members scss start
+================================================*/
+#bakery_members {
+    padding-top: 62px;
+
+
+    .baker_slider {
+        padding: 80px 0;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+    }
+
+    .common_heading {
+        padding-bottom: 45px;
+
+        h3 {
+            color: #ff3d3d80;
+            font-size: 30px;
+            font-family: 'festive', cursive;
+            font-weight: 600;
+            text-transform: capitalize;
+            padding-bottom: 15px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 39%;
+                bottom: 0px;
+                width: 22%;
+                height: 1px;
+                background: #ff3d3d80;
+            }
+        }
+    }
+
+    .bekar_img {
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        position: relative;
+        border: 1px solid #ffffff7a;
+        padding: 0 46px;
+        border-radius:0 6% 0% 6%;
+        cursor: pointer;
+
+        .corner_overlay {
+            position: absolute;
+            right: -1px;
+            bottom: 0px;
+            width: 300px;
+            height: 200px;
+            border-radius: 0 6% 0% 6%;
+            background: #ffffff90;
+            z-index: 999;
+            text-align: center;
+            visibility: hidden;
+            opacity: 0;
+            transform: scale(0);
+            transition: all linear .2s;
+
+            p {
+                color: #5f0000;
+                font-family: 'Dancing Script', cursive;
+                font-weight: 500;
+                text-transform: capitalize;
+                padding-bottom: 30px;
+                font-size: 30px;
+                position: absolute;
+                left: 10px;
+                bottom: -10%;
+
+                span {
+                    display: block;
+                    font-size: 16px;
+
+                }
+            }
+        }
+
+        &:hover {
+            .corner_overlay {
+                visibility: visible;
+                opacity: 1;
+                transform: scale(1);
+                transition: all linear .2s;
+            }
+        }
+    }
+
+    .slider_bg {
+        .slick-dots {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 30px;
+            display: flex;
+
+            li {
+                margin-right: 5px;
+                transition: all linear .2s;
+
+
+
+
+                button {
+                    font-size: 0;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: transparent;
+                    border: 1px solid #fff;
+                    transition: all linear .2s;
+                }
+            }
+
+            .slick-active {
+                transition: all linear .2s;
+
+                button {
+                    width: 20px;
+                    height: 20px;
+                    background: #5f0000;
+                    border: 0;
+                    transition: all linear .2s;
+                    transform: translateY(-6px);
+                }
+            }
+        }
+    }
+}
+
+/*================================================
+            bakery_members scss end
+================================================*/

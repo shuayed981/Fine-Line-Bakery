@@ -1,0 +1,61 @@
+/*========================================================
+            footer scss start
+========================================================*/
+#review {
+    padding-top: 63px;
+
+    .review_bg_class {
+        padding: 80px 0;
+    }
+
+    .review_bg {
+        padding: 40px 40px;
+        background: rgba(0, 0, 0, 0.5);
+
+        h1 {
+            color: #ffffff;
+            font-size: 40px;
+            font-family: 'festive', cursive;
+            font-weight: 700;
+            text-transform: capitalize;
+            padding-bottom: 15px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 27%;
+                bottom: 0;
+                width: 45%;
+                height: 1px;
+                background: #fff;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 24px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 35px 70px;
+            line-height: 45px;
+        }
+
+        span {
+            display: block;
+            padding-top: 50px;
+        }
+    }
+
+    .review_row {
+        text-align: center !important;
+        padding: 0 300px;
+    }
+
+}
+
+
+/*========================================================
+           footer scss end
+========================================================*/

@@ -1,0 +1,2928 @@
+/*=========================================================
+                responsive css start
+=========================================================*/
+
+@media (min-width: 1400px) {
+
+    /*============================================
+            menubook part responsive start
+    ============================================*/
+    #menu_book .menu_book_name_price {
+        margin-bottom: 29px;
+        margin-right: 0px;
+        position: relative;
+    }
+
+
+    /*============================================
+            menubook part responsive start
+    ============================================*/
+
+    /* menu================================ */
+    .menu_fix ul li a {
+        color: #ff3d3d80;
+
+    }
+
+    .menu_fix {
+        background: #00000060;
+    }
+
+    .menu_fix ul li a {
+        color: #fff;
+    }
+
+    /* menu================================ */
+
+    /*============================================
+        bakery_members part responsive start
+    ============================================*/
+    #bakery_members .bekar_img .corner_overlay {
+        width: 260px;
+        height: 160px;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p {
+        padding-bottom: 25px;
+        font-size: 24px;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    /*============================================
+        bakery_members part responsive start
+    ============================================*/
+    #gallery .col_img .corner_overlay {
+        position: absolute;
+        left: 0px;
+        bottom: -25px;
+        width: 150px;
+        height: 140px;
+        border-radius: 0 20px 0px 0;
+    }
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /*=====================================================
+                menu part responsive start
+        =====================================================*/
+    .menu_fix ul li a {
+        color: #fff;
+
+    }
+
+    .menu_fix {
+        background: #00000060;
+    }
+
+    /*=====================================================
+                menu part responsive end
+        =====================================================*/
+    /*=====================================================
+                banner part responsive start
+        =====================================================*/
+    #banner p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        line-height: 24px;
+        padding: 0 210px;
+    }
+
+    /*=====================================================
+                banner part responsive end
+        =====================================================*/
+    /*=====================================================
+                gallery part responsive start
+        =====================================================*/
+    #gallery .gallery_row {
+        justify-content: space-between !important;
+        padding: 0 10px;
+        display: flex !important;
+    }
+
+    #gallery .col_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #gallery .col_img {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #gallery .col_img::after {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 0;
+        width: 92%;
+        height: 0;
+        background: #ff3d3d80;
+        visibility: hidden;
+        opacity: 0;
+
+    }
+
+    #gallery .col_img {
+        margin-bottom: 22px;
+        position: relative;
+    }
+
+    #gallery .col_img .corner_overlay {
+        position: absolute;
+        left: 12px;
+        bottom: 0px;
+        width: 130px;
+        height: 120px;
+        border-radius: 0 25px 0px 0;
+    }
+
+    #gallery .col_img:hover a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 45%;
+    }
+
+
+    .common_heading {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    #gallery .col_img .corner_overlay p {
+        left: 5px;
+        top: 10px;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 30px;
+    }
+
+
+    #gallery .common_heading h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    #gallery .col_img .corner_overlay p span {
+        display: block;
+        font-size: 26px;
+    }
+
+    /*=====================================================
+                gallery part responsive end
+        =====================================================*/
+    /*=====================================================
+                menubook part responsive end
+        =====================================================*/
+    #menu_book .menu_book_name_price {
+        margin-bottom: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    #menu_book .menu_book_name_price h3 {
+        padding-bottom: 5px;
+    }
+
+    /*=====================================================
+                menubook part responsive end
+        =====================================================*/
+    /*=====================================================
+                bakary_members part responsive start
+        =====================================================*/
+    #bakery_members {
+        padding-top: 25px;
+    }
+
+    #bakery_members .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 38%;
+        bottom: 0px;
+        width: 23.5%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #bakery_members .bekar_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bekar_img {
+        margin-bottom: 20px;
+    }
+
+    .bekar_img:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #bakery_members .bekar_img {
+        position: relative;
+        border: 1px solid #ffffff70;
+        padding: 0 43px;
+        border-radius: 0 6% 0% 6%;
+        cursor: pointer;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 40%;
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        width: 180px;
+        height: 140px;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p {
+        color: #5f0000;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p span {
+        display: block;
+        font-size: 13px;
+    }
+
+    #bakery_members .baker_slider {
+        padding: 35px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bakery_members .slider_bg .slick-dots .slick-active button {
+        width: 20px;
+        height: 20px;
+        background: #5f0000;
+        border: 0;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        left: 46.5%;
+    }
+
+    #bakery_members .slider_bg .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+    }
+
+    /*=====================================================
+                bakary_members part responsive end
+        =====================================================*/
+    /*=====================================================
+                review part responsive end
+        =====================================================*/
+    #review .review_bg p {
+        color: #fff;
+        font-size: 24px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 0;
+        line-height: 40px;
+    }
+
+    #review .review_bg h1 {
+        color: #ffffff;
+        font-size: 40px;
+        font-family: 'festive', cursive;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    #review .review_bg h1::after {
+        position: absolute;
+        content: '';
+        left: 25%;
+        bottom: 0;
+        width: 51%;
+        height: 1px;
+        background: #fff;
+    }
+
+    /*=====================================================
+                review part responsive end
+        =====================================================*/
+    /*=====================================================
+                booking part responsive end
+        =====================================================*/
+    #booking .counter_part ul li i {
+        margin-right: 0;
+        font-size: 50px;
+        color: #ff3d3d80;
+    }
+
+    /*=====================================================
+                booking part responsive end
+        =====================================================*/
+
+
+    /*=====================================================
+                footer part responsive end
+        =====================================================*/
+    #footer .flicker_ul li img {
+        width: 56px;
+        height: 56px;
+    }
+
+    #footer .foot_col p {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+        line-height: 22px;
+    }
+
+    /*=====================================================
+                footer part responsive end
+        =====================================================*/
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*=========================================
+            responsive start
+    =========================================*/
+    /*=========================================================
+                header part responsive start
+=========================================================*/
+    #header {
+        padding: 1px 0px;
+        background: #ff3d3d80;
+
+    }
+
+    #header .welcome_text {
+        display: inline-flex;
+        text-align: center !important;
+    }
+
+    .welcome_col {
+        padding: 7px 0px;
+        border-bottom: 1px solid transparent;
+    }
+
+    #header .icons_texts ul {
+        display: inline-flex;
+        text-align: center !important;
+    }
+
+    #header .cart_col {
+        text-align: end !important;
+    }
+
+    #header .welcome_text h2 span {
+        font-size: 20px;
+        font-family: 'Festive', cursive;
+        font-weight: 400;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    #header .welcome_text h2 {
+        font-size: 13px;
+    }
+
+    #header .icons_texts ul .li_after::after {
+        background: transparent;
+    }
+
+    #header .icons_texts ul {
+        padding: 7px 0;
+    }
+
+    #header .icons_texts ul .li_after {
+        position: relative;
+        margin-left: 16px;
+    }
+
+    #header .icons_texts ul li a i {
+        margin-left: 2px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    #header .icons_texts ul li a {
+        font-size: 12px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    #header .icons_texts ul li a i {
+        font-size: 11px;
+    }
+
+    #header .welcome_text {
+        display: block;
+        text-align: center !important;
+    }
+
+    #header .menu_cart .wish {
+        position: relative;
+        margin-right: 10px;
+    }
+
+    #header .menu_cart .wish::after {
+        background: transparent;
+    }
+
+    #header .menu_cart .wish a {
+        color: #fff;
+        font-size: 16px;
+        text-align: center !important;
+    }
+
+    #header .menu_cart .wish a span {
+        font-size: 11px;
+        text-transform: capitalize;
+        font-family: 'Dancing Script', cursive;
+        display: block !important;
+    }
+
+    /*=========================================================
+        header part responsive start
+=========================================================*/
+    /*=====================================================
+                menu part responsive start
+        =====================================================*/
+    #menu .main_menu ul li a::before {
+        position: absolute;
+        content: '';
+        left: -5px;
+        top: 38px;
+        width: 0%;
+        height: 1px;
+        background: #5f0000;
+    }
+
+    #menu .main_menu ul li a::after {
+        position: absolute;
+        content: '';
+        right: 0;
+        bottom: 34px;
+        width: 0%;
+        height: 1px;
+    }
+
+    .menu_fix ul li a {
+        color: #fff;
+
+    }
+
+    .menu_fix {
+        background: #00000060;
+    }
+
+    /*=====================================================
+                menu part responsive end
+        =====================================================*/
+
+    /*=====================================================
+                banner part responsive start
+        =====================================================*/
+    #banner p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        line-height: 24px;
+        padding: 0 210px;
+    }
+
+    /*=====================================================
+                banner part responsive end
+        =====================================================*/
+    /*=====================================================
+                gallery part responsive start
+        =====================================================*/
+    #gallery .gallery_row {
+        justify-content: space-between !important;
+        padding: 0 10px;
+        display: flex !important;
+    }
+
+    #gallery .col_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #gallery .col_img {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #gallery .col_img::after {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 0;
+        width: 220px;
+        height: 0;
+        background: transparent;
+    }
+
+    #gallery .col_img {
+        margin-bottom: 22px;
+        position: relative;
+    }
+
+    #gallery .col_img .corner_overlay {
+        position: absolute;
+        left: 12px;
+        bottom: 0px;
+        width: 130px;
+        height: 120px;
+        border-radius: 0 25px 0px 0;
+        background: #ffffff90;
+        transform: scale(0);
+        z-index: auto;
+    }
+
+    #gallery .col_img a {
+        visibility: visible;
+        opacity: 1;
+        color: #fff;
+    }
+
+    #gallery .col_img a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 45%;
+    }
+
+
+    #gallery .col_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #gallery .col_img::after {
+
+        height: 100%;
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    #gallery {
+        padding-top: 35px;
+    }
+
+    .common_heading {
+        padding-bottom: 20px;
+    }
+
+    #gallery .col_img .corner_overlay p {
+        left: 5px;
+        top: 10px;
+        color: #5f0000;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 40px;
+    }
+
+    #gallery .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+
+    }
+
+    #gallery .common_heading h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    #gallery .col_img .corner_overlay p span {
+        display: block;
+        font-size: 26px;
+        color: #5f0000;
+    }
+
+    /*=====================================================
+                gallery part responsive end
+        =====================================================*/
+
+    /*=====================================================
+                menubook part responsive start
+        =====================================================*/
+    #menu_book .menu_book_name_price {
+        margin-bottom: 15px;
+        margin-right: 0;
+        margin-left: 1px;
+        position: relative;
+    }
+
+    #menu_book .menu_book_name_price h3 {
+        color: #ff3d3d80;
+        font-size: 24px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 2px;
+    }
+
+    /*=====================================================
+                menubook part responsive end
+        =====================================================*/
+
+    /*=====================================================
+                bakary_members part responsive start
+        =====================================================*/
+    #bakery_members {
+        padding-top: 25px;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #bakery_members .bekar_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bekar_img {
+        margin-bottom: 20px;
+    }
+
+    .bekar_img:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #bakery_members .bekar_img {
+        position: relative;
+        border: 1px solid #ffffff70;
+        padding: 0 26px;
+        border-radius: 0 6% 0% 6%;
+        cursor: pointer;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 40%;
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        width: 160px;
+        height: 120px;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p {
+        color: #5f0000;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p span {
+        display: block;
+        font-size: 13px;
+    }
+
+    #bakery_members .baker_slider {
+        padding: 35px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bakery_members .slider_bg .slick-dots .slick-active button {
+        width: 20px;
+        height: 20px;
+        background: #5f0000;
+        border: 0;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        left: 46.5%;
+    }
+
+    #bakery_members .slider_bg .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+    }
+
+    /*=====================================================
+                bakary_members part responsive end
+        =====================================================*/
+
+    /*=====================================================
+                review part responsive start
+        =====================================================*/
+    #review .review_bg p {
+        color: #fff;
+        font-size: 24px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 0 0px;
+        line-height: 45px;
+        margin-top: 30px;
+    }
+
+    #review .review_row {
+        text-align: center !important;
+        padding: 0 40px;
+    }
+
+    /*=====================================================
+                review part responsive end
+        =====================================================*/
+
+    /*=====================================================
+                booking part responsive start
+        =====================================================*/
+    #booking .regi_form {
+        padding: 40px 40px;
+        background: #ff3d3d80;
+    }
+
+    #booking .counter_part ul li h4 span {
+        font-size: 40px;
+        display: block;
+    }
+
+    #booking .counter_part ul li i {
+        margin-right: 0px;
+        font-size: 45px;
+        color: #ff3d3d80;
+    }
+
+    /*=====================================================
+                booking part responsive end
+        =====================================================*/
+
+    /*=====================================================
+                footer responsive start
+        =====================================================*/
+    #footer .foot_col ul li {
+        color: #fff;
+        font-size: 13px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+
+    #footer .foot_col ul li a i {
+        color: #fff;
+        font-size: 13px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        background: #ff3d3d80;
+    }
+
+    #footer .foot_col p {
+        color: #fff;
+        font-size: 13px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+        line-height: 30px;
+    }
+
+    #footer .foot_col ul li {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+
+    #footer .copyright p {
+        color: #fff;
+        font-size: 13px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+
+    /*=====================================================
+                footer responsive end
+        =====================================================*/
+
+    /*=========================================
+            responsive end
+    =========================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*=========================================================
+                header part responsive start
+=========================================================*/
+    #header {
+        padding: 1px 0px;
+        background: #ff3d3d80;
+    }
+
+    #header .welcome_text {
+        display: inline-flex;
+        text-align: center !important;
+    }
+
+    .welcome_col {
+        padding: 1px 0px;
+        border-bottom: 1px solid transparent;
+    }
+
+    #header .icons_texts ul {
+        display: inline-flex;
+        text-align: center !important;
+    }
+
+    #header .cart_col {
+        text-align: center !important;
+    }
+
+    #header .welcome_text h2 span {
+        font-size: 20px;
+        font-family: 'Festive', cursive;
+        font-weight: 400;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    #header .welcome_text h2 {
+        font-size: 11px;
+    }
+
+    #header .icons_texts ul .li_after::after {
+        background: transparent;
+    }
+
+    #header .icons_texts ul .li_after {
+        position: relative;
+        margin-left: 10px;
+    }
+
+    #header .icons_texts ul li a i {
+        margin-left: 2px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    #header .icons_texts ul li a {
+        font-size: 10px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    #header .icons_texts ul li a i {
+        font-size: 11px;
+    }
+
+    #header .welcome_text {
+        display: block;
+        text-align: center !important;
+    }
+
+    #header .menu_cart .wish {
+        position: relative;
+        margin-right: 5px;
+    }
+
+    #header .menu_cart .wish::after {
+        background: transparent;
+    }
+
+    #header .menu_cart .wish a {
+        color: #fff;
+        font-size: 11px;
+        text-align: center !important;
+    }
+
+    #header .menu_cart .wish a span {
+        font-size: 10px;
+        text-transform: capitalize;
+        font-family: 'Dancing Script', cursive;
+        display: block !important;
+    }
+
+    /*=========================================================
+        header part responsive start
+=========================================================*/
+
+    /*=========================================================
+        menu part responsive start
+=========================================================*/
+    .main_menu {
+        padding: 0px 0px;
+        transition: all linear .2s;
+    }
+
+    .main_menu .img_logo {
+        width: 140px;
+    }
+
+    .navbar-collapse {
+        text-align: center !important;
+    }
+
+    .main_menu ul li {
+        margin-right: 0px;
+        margin-bottom: 2px;
+        border: 1px solid #ff3d3d90;
+        padding: 0px 100px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #5f0000;
+    }
+
+    .main_menu ul li a {
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        color: #ff3d3d90;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    .menu_fix ul li a {
+        color: #fff;
+
+    }
+
+    .menu_fix {
+        background: #00000060;
+    }
+
+    .main_menu ul li a::after {
+        transform: scale(1);
+        transition: all linear .2s;
+        visibility: visible;
+        opacity: 1;
+        background: transparent;
+    }
+
+    /*=========================================================
+        menu part responsive end
+=========================================================*/
+
+
+    /*============================================================
+                banner part responsive start
+    ============================================================*/
+    #banner .banner_text img {
+        width: 320px;
+    }
+
+    #banner p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        line-height: 24px;
+        padding: 0 0;
+    }
+
+    #banner a {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        padding: 7px 49px;
+        background: #ff3d3d80;
+        margin-right: 15px;
+        transition: all linear .3s;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 8px;
+    }
+
+    #banner .banner_text h2 {
+        color: #fff;
+        font-size: 26px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    /*============================================================
+                banner part responsive end
+    ============================================================*/
+
+    /*============================================================
+                gallery part responsive start
+    ============================================================*/
+
+    #gallery .gallery_row {
+        justify-content: space-between !important;
+        padding: 0 0px;
+        display: flex !important;
+    }
+
+    #gallery .col_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #gallery .col_img {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #gallery .col_img::after {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 0;
+        width: 170px;
+        height: 0;
+        background: transparent;
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear .2s;
+    }
+
+    #gallery .col_img {
+        margin-bottom: 26px;
+        position: relative;
+    }
+
+    #gallery .col_img .corner_overlay {
+        position: absolute;
+        left: 12px;
+        bottom: 0px;
+        width: 95px;
+        height: 90px;
+        border-radius: 0 25px 0px 0;
+        background: #ffffff90;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        z-index: auto;
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear .2s;
+    }
+
+    #gallery .col_img a {
+        visibility: visible;
+        opacity: 1;
+        color: #fff;
+    }
+
+    #gallery .col_img a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 45%;
+    }
+
+
+    #gallery .col_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #gallery .col_img::after {
+
+        height: 100%;
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    #gallery {
+        padding-top: 35px;
+    }
+
+    .common_heading {
+        padding-bottom: 20px;
+    }
+
+    #gallery .col_img .corner_overlay p {
+        left: 5px;
+        top: 10px;
+        color: #5f0000;
+        font-size: 20px;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 40px;
+    }
+
+    #gallery .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+
+    }
+
+    #gallery .common_heading h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+
+
+    #gallery .col_img .corner_overlay p span {
+        display: block;
+        font-size: 18px;
+        color: #5f0000;
+    }
+
+    /*============================================================
+                gallery part responsive end
+    ============================================================*/
+    /*============================================================
+                menubook part responsive start
+    ============================================================*/
+    #menu_book {
+        padding-top: 21px;
+    }
+
+    #menu_book .common_heading h3 {
+        color: #ff3d3d80;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'festive', cursive;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #menu_book .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #menu_book .common_heading {
+        padding-bottom: 20px;
+    }
+
+    #menu_book .common_menu_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 35%;
+        bottom: -5px;
+        width: 30%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #menu_book .menu_book_row {
+        margin-bottom: 12px;
+    }
+
+    #menu_book .menu_book_name_price h3 {
+        color: #ff3d3d80;
+        font-size: 24px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 2px;
+    }
+
+    #menu_book .menu_book_name_price {
+        margin-bottom: 15px;
+        margin-right: 0px;
+        position: relative;
+    }
+
+    #menu_book .name_price_col {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    #menu_book .common_menu_heading h3 {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    #menu_book .common_heading {
+        padding-bottom: 0px;
+    }
+
+    /*============================================================
+                menubook part responsive end
+    ============================================================*/
+
+    /*============================================================
+                bakery_members part responsive start
+    ============================================================*/
+    #bakery_members {
+        padding-top: 25px;
+    }
+
+    #bakery_members .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #bakery_members .bekar_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bekar_img {
+        margin-bottom: 20px;
+    }
+
+    .bekar_img:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #bakery_members .bekar_img {
+        position: relative;
+        border: 1px solid #ffffff70;
+        padding: 0 44px;
+        border-radius: 0 6% 0% 6%;
+        cursor: pointer;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 40%;
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+        transition: all linear .2s;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        width: 170px;
+        height: 130px;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p {
+        color: #5f0000;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p span {
+        display: block;
+        font-size: 13px;
+    }
+
+    #bakery_members .baker_slider {
+        padding: 35px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bakery_members .slider_bg .slick-dots .slick-active button {
+        width: 20px;
+        height: 20px;
+        background: #5f0000;
+        border: 0;
+        transition: all linear .2s;
+        transform: translateY(-6px);
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        left: 46.5%;
+    }
+
+    #bakery_members .slider_bg .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+        transition: all linear .2s;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    /*============================================================
+                bakery_members part responsive end
+    ============================================================*/
+
+    /*============================================================
+                review part responsive start
+    ============================================================*/
+    #review .review_row {
+        text-align: center !important;
+        padding: 0 0;
+    }
+
+    #review {
+        padding-top: 35px;
+    }
+
+    #review .review_bg p {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 0 50px;
+        line-height: 34px;
+    }
+
+    #review .review_bg h1 {
+        color: #ffffff;
+        font-size: 35px;
+        font-family: 'festive', cursive;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 6px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #review .review_bg h1::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    #review .review_bg span {
+        display: block;
+        padding-top: 24px;
+    }
+
+    #review .review_bg {
+        padding: 35px 40px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #review .review_bg_class {
+        padding: 50px 0;
+    }
+
+    /*============================================================
+                review part responsive end
+    ============================================================*/
+
+    /*============================================================
+                booking part responsive start
+    ============================================================*/
+    #booking {
+        padding: 35px 0;
+    }
+
+    #booking .regi_form {
+        padding: 30px 30px;
+        background: #ff3d3d80;
+    }
+
+    #booking .regi_form h3 {
+        color: #fff;
+        font-size: 24px;
+        font-family: 'festive', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 30px;
+        position: relative;
+    }
+
+    #booking .regi_form h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    #booking .regi_form h3 span {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-top: 0px;
+        line-height: 24px;
+    }
+
+    #booking .regi_form a {
+        margin-top: 30px;
+        padding: 1px 24px;
+        border: 1px solid #fff;
+        color: #fff;
+        font-size: 22px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        transition: all linear .3s;
+    }
+
+    #booking .booking_row .booking_text_col p {
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 7px;
+        float: left;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    /* counter part */
+
+    #booking .counter_col {
+        margin-top: 35px;
+    }
+
+    #booking .counter_part ul li h4 span {
+        font-size: 40px;
+        display: block;
+    }
+
+    #booking .counter_part ul li h4 {
+        color: #ff3d3d80;
+        font-size: 22px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    .counter_part {
+        text-align: center !important;
+    }
+
+    #booking .counter_part ul li i {
+        margin-right: 0;
+        font-size: 45px;
+        color: #ff3d3d80;
+    }
+
+    /* counter part */
+    /*============================================================
+                booking part responsive end
+    ============================================================*/
+
+    /*============================================================
+                footer part responsive start
+    ============================================================*/
+    #footer .common_footer_text {
+        margin-top: 20px;
+    }
+
+    #footer .footer_bg {
+        padding-bottom: 20px;
+        background: #ff3d3d80;
+    }
+
+    #footer .foot_col ul li {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+
+    #footer .foot_col p {
+        line-height: 24px;
+    }
+
+    #footer .footer_bg {
+        padding-bottom: 15px;
+        background: #ff3d3d80;
+    }
+
+    #footer .copyright p {
+        margin-top: 0px;
+    }
+
+    #footer .flicker_ul {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    /*============================================================
+                footer part responsive end
+    ============================================================*/
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*=========================================================
+                header part responsive start
+=========================================================*/
+    #header {
+        padding: 1px 0px;
+        background: #ff3d3d80;
+    }
+
+    #header .welcome_text {
+        display: none;
+    }
+
+    .welcome_col {
+        padding: 1px 0px;
+        border-bottom: 1px solid transparent;
+    }
+
+    #header .icons_texts ul {
+        display: none;
+        text-align: center !important;
+    }
+
+    #header .cart_col {
+        text-align: center !important;
+    }
+
+    /*=========================================================
+            header part responsive start
+=========================================================*/
+
+    /*=========================================================
+            menu part responsive start
+=========================================================*/
+    .main_menu {
+        padding: 0px 0px;
+        transition: all linear .2s;
+    }
+
+    .main_menu .img_logo {
+        width: 130px;
+    }
+
+    .navbar-collapse {
+        text-align: center !important;
+    }
+
+    .main_menu ul li {
+        margin-right: 0px;
+        margin-bottom: 2px;
+        border: 1px solid #ff3d3d90;
+        padding: 0px 100px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #5f0000;
+
+    }
+
+    .main_menu ul li a {
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        color: #ff3d3d90;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    .menu_fix ul li a {
+        color: #fff;
+
+    }
+
+    .menu_fix {
+        background: #00000060;
+    }
+
+    .main_menu ul li a::after {
+        transform: scale(1);
+        transition: all linear .2s;
+        visibility: visible;
+        opacity: 1;
+        background: transparent;
+    }
+
+    /*=========================================================
+            menu part responsive end
+=========================================================*/
+
+
+    /*============================================================
+                banner part responsive start
+    ============================================================*/
+    #banner .banner_text img {
+        width: 320px;
+    }
+
+    #banner p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        line-height: 24px;
+        padding: 0 0;
+    }
+
+    #banner a {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        padding: 7px 35px;
+        background: #ff3d3d80;
+        margin-right: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 8px;
+    }
+
+    #banner .banner_text h2 {
+        color: #fff;
+        font-size: 26px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    /*============================================================
+                banner part responsive end
+    ============================================================*/
+
+    /*============================================================
+                gallery part responsive start
+    ============================================================*/
+
+    #gallery .gallery_row {
+        justify-content: space-between !important;
+        padding: 0 0px;
+        display: flex !important;
+    }
+
+    #gallery .col_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #gallery .col_img {
+        margin-left: 0px;
+    }
+
+    #gallery .col_img::after {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 0;
+        width: 250px;
+        height: 0;
+        background: transparent;
+    }
+
+    #gallery .col_img {
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    #gallery .col_img .corner_overlay {
+        position: absolute;
+        left: 12px;
+        bottom: 0px;
+        width: 130px;
+        height: 130px;
+        border-radius: 0 25px 0px 0;
+        background: #ffffff90;
+        transform: scale(0);
+        z-index: auto;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #gallery .col_img a {
+        visibility: visible;
+        opacity: 1;
+        color: #fff;
+    }
+
+    #gallery .col_img a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 45%;
+    }
+
+
+    #gallery .col_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #gallery .col_img::after {
+
+        height: 100%;
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    #gallery {
+        padding-top: 35px;
+    }
+
+    .common_heading {
+        padding-bottom: 20px;
+    }
+
+    #gallery .col_img .corner_overlay p {
+        left: 5px;
+        top: 10px;
+        color: #5f0000;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 40px;
+    }
+
+    #gallery .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+
+    }
+
+    #gallery .common_heading h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    #gallery .col_img .corner_overlay p span {
+        display: block;
+        font-size: 26px;
+        color: #5f0000;
+    }
+
+    /*============================================================
+                gallery part responsive end
+    ============================================================*/
+    /*============================================================
+                menubook part responsive start
+    ============================================================*/
+    #menu_book {
+        padding-top: 21px;
+    }
+
+    #menu_book .common_heading h3 {
+        color: #ff3d3d80;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'festive', cursive;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #menu_book .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #menu_book .common_heading {
+        padding-bottom: 9px;
+    }
+
+    #menu_book .common_menu_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 35%;
+        bottom: -5px;
+        width: 30%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #menu_book .menu_book_row {
+        margin-bottom: 12px;
+    }
+
+    #menu_book .menu_book_name_price h3 {
+        color: #ff3d3d80;
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 2px;
+    }
+
+    #menu_book .menu_book_name_price {
+        margin-bottom: 15px;
+        margin-right: 0px;
+        position: relative;
+    }
+
+    #menu_book .name_price_col {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+
+    #menu_book .common_menu_heading h3 {
+        position: relative;
+        margin-top: 20px;
+    }
+
+
+    /*============================================================
+                menubook part responsive end
+    ============================================================*/
+
+    /*============================================================
+                bakery_members part responsive start
+    ============================================================*/
+    #bakery_members {
+        padding-top: 25px;
+    }
+
+    #bakery_members .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #bakery_members .bekar_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bekar_img {
+        margin-bottom: 20px;
+    }
+
+    .bekar_img:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #bakery_members .bekar_img {
+        position: relative;
+        border: 1px solid #ffffff70;
+        padding: 0 31px;
+        border-radius: 0 6% 0% 6%;
+        cursor: pointer;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        width: 140px;
+        height: 120px;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p {
+        color: #5f0000;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        font-size: 18px;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p span {
+        display: block;
+        font-size: 10px;
+    }
+
+    #bakery_members .baker_slider {
+        padding: 35px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bakery_members .slider_bg .slick-dots .slick-active button {
+        width: 20px;
+        height: 20px;
+        background: #5f0000;
+        border: 0;
+        transform: translateY(-6px);
+    }
+
+    #bakery_members .slider_bg .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    /*============================================================
+                bakery_members part responsive end
+    ============================================================*/
+
+    /*============================================================
+                review part responsive start
+    ============================================================*/
+    #review .review_row {
+        text-align: center !important;
+        padding: 0 0;
+    }
+
+    #review {
+        padding-top: 35px;
+    }
+
+    #review .review_bg p {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 0;
+        line-height: 24px;
+    }
+
+    #review .review_bg h1 {
+        display: block;
+        color: #ffffff;
+        font-size: 35px;
+        font-family: 'festive', cursive;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 6px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #review .review_bg h1::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    #review .review_bg span {
+        display: block;
+        padding-top: 24px;
+    }
+
+    #review .review_bg {
+        padding: 35px 40px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #review .review_bg_class {
+        padding: 50px 0;
+    }
+
+    /*============================================================
+                review part responsive end
+    ============================================================*/
+
+    /*============================================================
+                booking part responsive start
+    ============================================================*/
+    #booking {
+        padding: 35px 0;
+    }
+
+    #booking .regi_form {
+        padding: 30px 10px;
+        background: #ff3d3d80;
+    }
+
+    #booking .regi_form h3 {
+        color: #fff;
+        font-size: 24px;
+        font-family: 'festive', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 30px;
+        position: relative;
+    }
+
+    #booking .regi_form h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    #booking .regi_form h3 span {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-top: 0px;
+        line-height: 24px;
+    }
+
+    #booking .regi_form a {
+        margin-top: 30px;
+        padding: 1px 24px;
+        border: 1px solid #fff;
+        color: #fff;
+        font-size: 22px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        transition: all linear .3s;
+    }
+
+    #booking .booking_row .booking_text_col p {
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 7px;
+        float: left;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    /* counter part */
+
+    #booking .counter_col {
+        margin-top: 35px;
+    }
+
+    #booking .counter_part ul li h4 span {
+        font-size: 40px;
+        display: block;
+    }
+
+    #booking .counter_part ul li h4 {
+        color: #ff3d3d80;
+        font-size: 22px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    .counter_part {
+        text-align: center !important;
+    }
+
+    #booking .counter_part ul li i {
+        margin-right: 0;
+        font-size: 40px;
+        color: #ff3d3d80;
+    }
+
+    /* counter part */
+    /*============================================================
+                booking part responsive end
+    ============================================================*/
+
+    /*============================================================
+                footer part responsive start
+    ============================================================*/
+    #footer .common_footer_text {
+        margin-top: 20px;
+    }
+
+    #footer .footer_bg {
+        padding-bottom: 20px;
+        background: #ff3d3d80;
+    }
+
+    #footer .foot_col ul li {
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+
+    #footer .foot_col p {
+        line-height: 24px;
+    }
+
+    #footer .footer_bg {
+        padding-bottom: 15px;
+        background: #ff3d3d80;
+    }
+
+    #footer .copyright p {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    /*============================================================
+                footer part responsive end
+    ============================================================*/
+}
+
+@media (max-width: 575.98px) {
+
+    /*=========================================================
+                header part responsive start
+=========================================================*/
+    #header {
+        padding: 1px 0px;
+        background: #ff3d3d80;
+    }
+
+    #header .welcome_text {
+        display: none;
+    }
+
+    .welcome_col {
+        padding: 1px 0px;
+        border-bottom: 1px solid transparent;
+    }
+
+    #header .icons_texts ul {
+        display: none;
+        text-align: center !important;
+    }
+
+    #header .cart_col {
+        text-align: center !important;
+    }
+
+    #header .menu_cart .wish::after {
+        position: absolute;
+        content: '';
+        right: -15px;
+        top: 5px;
+        height: 25px;
+        width: 1px;
+        background: #fff;
+    }
+
+    /*=========================================================
+                header part responsive start
+=========================================================*/
+
+    /*=========================================================
+                menu part responsive start
+=========================================================*/
+    .main_menu {
+        padding: 0px 0px;
+        transition: all linear .2s;
+    }
+
+    .main_menu .img_logo {
+        width: 120px;
+    }
+
+    .navbar-collapse {
+        text-align: center !important;
+    }
+
+    .main_menu ul li {
+        margin-right: 0px;
+        margin-bottom: 2px;
+        border: 1px solid #ff3d3d90;
+        padding: 0px 100px;
+    }
+
+    .main_menu ul li a {
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        color: #ff3d3d90;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    .menu_fix ul li a {
+        color: #fff;
+
+    }
+
+    .menu_fix {
+        background: #00000060;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #5f0000;
+
+    }
+
+    .main_menu ul li a::after {
+        transform: scale(1);
+        transition: all linear .2s;
+        visibility: visible;
+        opacity: 1;
+        background: transparent;
+    }
+
+    /*=========================================================
+                menu part responsive end
+=========================================================*/
+
+
+    /*============================================================
+            banner part responsive start
+============================================================*/
+    #banner .banner_text img {
+        width: 300px;
+    }
+
+    #banner {
+        padding: 50px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    #banner p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        line-height: 24px;
+        padding: 0 0;
+    }
+
+    #banner a {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        padding: 7px 35px;
+        background: #ff3d3d80;
+        margin-right: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 8px;
+    }
+
+    #banner .banner_text h2 {
+        color: #fff;
+        font-size: 24px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    /*============================================================
+            banner part responsive end
+============================================================*/
+
+    /*============================================================
+            gallery part responsive start
+============================================================*/
+
+    #gallery .gallery_row {
+        padding: 0px 12px;
+    }
+
+    #gallery .col_img img {
+        height: 100%;
+    }
+
+    #gallery .col_img::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 0;
+        background: transparent;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #gallery .col_img {
+        margin-bottom: 25px;
+        position: relative;
+    }
+
+    #gallery .col_img .corner_overlay {
+        position: absolute;
+        left: 12px;
+        bottom: 0px;
+        width: 130px;
+        height: 120px;
+        border-radius: 0 25px 0px 0;
+        background: #ffffff90;
+        transform: scale(0);
+        z-index: auto;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #gallery .col_img a {
+        visibility: visible;
+        opacity: 1;
+        color: #fff;
+    }
+
+    #gallery .col_img a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 45%;
+    }
+
+    #gallery .col_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #gallery .col_img::after {
+
+        height: 100%;
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    #gallery {
+        padding-top: 35px;
+    }
+
+    .common_heading {
+        padding-bottom: 20px;
+    }
+
+    #gallery .col_img .corner_overlay p {
+        left: 5px;
+        top: 10px;
+        color: #5f0000;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 40px;
+    }
+
+    #gallery .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+
+    }
+
+    #gallery .common_heading h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    #gallery .col_img .corner_overlay p span {
+        display: block;
+        font-size: 26px;
+        color: #5f0000;
+    }
+
+
+    /*============================================================
+            gallery part responsive end
+============================================================*/
+
+
+
+
+    /*============================================================
+            menubook part responsive start
+============================================================*/
+    #menu_book {
+        padding-top: 21px;
+    }
+
+    #menu_book .common_heading h3 {
+        color: #ff3d3d80;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'festive', cursive;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    #menu_book .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #menu_book .common_heading {
+        padding-bottom: 9px;
+    }
+
+    #menu_book .common_menu_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 35%;
+        bottom: -5px;
+        width: 30%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #menu_book .menu_book_row {
+        margin-bottom: 12px;
+    }
+
+    #menu_book .menu_book_name_price h3 {
+        color: #ff3d3d80;
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-bottom: 2px;
+
+    }
+
+    #menu_book .menu_book_name_price {
+        margin-bottom: 15px;
+        margin-right: 0px;
+        position: relative;
+        margin-left: 0px;
+    }
+
+    #menu_book .name_price_col {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    #menu_book .common_menu_heading h3 {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    /*============================================================
+            menubook part responsive end
+============================================================*/
+
+    /*============================================================
+            bakery_members part responsive start
+============================================================*/
+    #bakery_members {
+        padding-top: 25px;
+    }
+
+    #bakery_members .common_heading h3::after {
+        position: absolute;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        background: #ff3d3d80;
+    }
+
+    #bakery_members .bekar_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bekar_img {
+        margin-bottom: 20px;
+    }
+
+    .bekar_img:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #bakery_members .bekar_img {
+        position: relative;
+        border: 1px solid #ffffff7a;
+        padding: 0 37px;
+        border-radius: 0 6% 0% 6%;
+        cursor: pointer;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 40%;
+        bottom: 15px;
+        display: flex;
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #bakery_members .bekar_img .corner_overlay {
+        width: 100.2%;
+        height: 100.1%;
+        left: -.5px;
+        top: 0;
+    }
+
+    #bakery_members .bekar_img .corner_overlay p {
+        color: #5f0000;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        font-size: 22px;
+        position: absolute;
+        left: 3%;
+        top: 3%;
+
+    }
+
+    #bakery_members .bekar_img .corner_overlay p span {
+        font-size: 18px;
+    }
+
+    #bakery_members .baker_slider {
+        padding: 35px 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bakery_members .slider_bg .slick-dots .slick-active button {
+        width: 20px;
+        height: 20px;
+        background: #5f0000;
+        border: 0;
+    }
+
+    #bakery_members .slider_bg .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+    }
+
+    #bakery_members .slider_bg .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        display: flex;
+    }
+
+    /*============================================================
+            bakery_members part responsive end
+============================================================*/
+
+    /*============================================================
+            review part responsive start
+============================================================*/
+    #review .review_row {
+        text-align: center !important;
+        padding: 0 0;
+    }
+
+    #review {
+        padding-top: 35px;
+    }
+
+    #review .review_bg p {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 0;
+        line-height: 24px;
+    }
+
+    #review .review_bg h1 {
+        display: block;
+        color: #ffffff;
+        font-size: 35px;
+        font-family: 'festive', cursive;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 6px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #review .review_bg h1::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    #review .review_bg span {
+        display: block;
+        padding-top: 24px;
+    }
+
+    #review .review_bg {
+        padding: 35px 10px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #review .review_bg_class {
+        padding: 50px 0;
+    }
+
+    /*============================================================
+            review part responsive end
+============================================================*/
+
+    /*============================================================
+            booking part responsive start
+============================================================*/
+    #booking {
+        padding: 35px 0;
+    }
+
+    #booking .regi_form {
+        padding: 30px 10px;
+        background: #ff3d3d80;
+    }
+
+    #booking .regi_form h3 {
+        color: #fff;
+        font-size: 24px;
+        font-family: 'festive', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 30px;
+        position: relative;
+    }
+
+    #booking .regi_form h3::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        height: 1px;
+        background: #fff;
+    }
+
+    #booking .regi_form h3 span {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding-top: 0px;
+        line-height: 24px;
+    }
+
+    #booking .regi_form a {
+        margin-top: 30px;
+        padding: 1px 24px;
+        border: 1px solid #fff;
+        color: #fff;
+        font-size: 22px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    #booking .booking_row .booking_text_col p {
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 7px;
+        float: left;
+        font-size: 16px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    /* counter part */
+
+    #booking .counter_col {
+        margin-top: 35px;
+    }
+
+    #booking .counter_part ul li h4 span {
+        font-size: 40px;
+        display: block;
+    }
+
+    #booking .counter_part ul li h4 {
+        color: #ff3d3d80;
+        font-size: 22px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    .counter_part {
+        text-align: center !important;
+    }
+
+    #booking .counter_part ul li i {
+        margin-right: 0;
+        font-size: 40px;
+        color: #ff3d3d80;
+    }
+
+
+
+    /* counter part */
+    /*============================================================
+            booking part responsive end
+============================================================*/
+
+    /*============================================================
+            footer part responsive start
+============================================================*/
+    #footer .common_footer_text {
+        margin-top: 20px;
+    }
+
+    #footer .footer_bg {
+        padding-bottom: 20px;
+        background: #ff3d3d80;
+    }
+
+    #footer .foot_col ul li {
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+
+    #footer .flicker_ul li img {
+        width: 64px;
+        height: 70px;
+    }
+
+    #footer .foot_col p {
+        line-height: 24px;
+    }
+
+    #footer .copyright p {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    /*============================================================
+            footer part responsive end
+============================================================*/
+}
+
+/*=========================================================
+                responsive css end
+=========================================================*/

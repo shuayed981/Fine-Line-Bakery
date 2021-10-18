@@ -1,0 +1,214 @@
+/*========================================================
+                header scss start
+========================================================*/
+#header {
+    padding: 5px 0;
+    background: #ff3d3d80;
+
+    .cart_col {
+        text-align: right !important;
+    }
+
+    .menu_cart {
+        display: inline-flex;
+
+        .wish {
+            position: relative;
+            margin-right: 30px;
+
+
+            a {
+                color: #fff;
+                font-size: 13px;
+                text-align: center !important;
+
+                span {
+                    font-size: 12px;
+                    text-transform: capitalize;
+                    font-family: 'Dancing Script', cursive;
+                    display: block !important;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                right: -15px;
+                top: 5px;
+                height: 25px;
+                width: 1px;
+                background: #fff;
+            }
+
+            &:last-child {
+
+                &::after {
+                    background: transparent;
+                }
+            }
+
+            &:hover {
+                a {
+                    color: #5f0000;
+                    transition: all linear .2s;
+
+                    span {
+                        color: #5f0000;
+                        transition: all linear .2s;
+                    }
+
+                    .bell_pop {
+                        background: #5f0000;
+                        transition: all linear .2s;
+                        p{
+                            color: #fff;
+                            transition: all linear .2s;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        .offcanvas {
+            position: fixed;
+            bottom: 0;
+            z-index: 1045;
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            visibility: hidden;
+            background-color: #ff3d3d80;
+            background-clip: padding-box;
+            outline: 0;
+            transition: transform .3s ease-in-out;
+            color: #fff;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .offcanvas_ul {
+            position: relative;
+            text-align: justify;
+            li {
+                margin-bottom: 30px;
+                font-size: 18px;
+                display: flex !important;
+                text-transform: capitalize;
+
+                ul {
+                    display: flex !important;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+
+                    li {
+                        color: #fff;
+                        font-size: 16px;
+                        margin-right: 5px;
+                        margin-bottom: 0;
+                        padding-top: 14px;
+
+                    }
+                }
+            }
+        }
+
+        .bell {
+            position: relative;
+            margin-right: 40px;
+
+            .bell_pop {
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: #fff;
+
+                p {
+                    font-family: 'Dancing Script', cursive;
+                    color: #ff3d3d80;
+                    font-size: 10px;
+                    text-align: center;
+                    line-height: 10px;
+                }
+            }
+        }
+
+        .carts {
+            margin-right: 0;
+        }
+
+    }
+    .offcanvas-header{
+        h5{
+            font-size: 22px;
+            text-transform: capitalize;
+        }
+    }
+
+    .welcome_text {
+
+        h2 {
+            font-size: 16px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 400;
+            color: #fff;
+            text-transform: capitalize;
+
+            span {
+                font-size: 24px;
+                font-family: 'Festive', cursive;
+                font-weight: 400;
+                color: #fff;
+                text-transform: capitalize;
+            }
+
+        }
+
+    }
+
+    .icons_texts {
+
+
+        ul {
+            display: inline-flex;
+
+            li {
+                a {
+                    font-size: 13px;
+                    font-family: 'Dancing Script', cursive;
+                    font-weight: 400;
+                    color: #fff;
+                    text-transform: capitalize;
+
+                    i {
+                        margin-left: 10px;
+                        font-size: 13px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .li_after {
+                position: relative;
+                margin-left: 20px;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: -10px;
+                    top: 3px;
+                    background: #e7e7e7;
+                    width: 1px;
+                    height: 22px;
+                }
+            }
+        }
+    }
+}
+
+/*========================================================
+                header scss end
+========================================================*/

@@ -1,0 +1,135 @@
+/*========================================================
+                menu scss start
+========================================================*/
+.main_menu {
+    padding: 10px 0;
+    transition: all linear .2s;
+
+    .logo_img {
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    ul {
+        display: inline-flex;
+
+
+        li {
+            margin-right: 30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                font-size: 24px;
+                font-family: 'Dancing Script', cursive;
+                font-weight: 400;
+                color: #ff3d3d80;
+                text-transform: capitalize;
+                position: relative;
+
+                .navbar-light .navbar-nav .nav-link {
+                    color: #ff3d3d80;
+
+                    &:hover {
+                        color: #5f0000;
+                    }
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    right: 0;
+                    bottom: 10px;
+                    width: 100%;
+                    height: 1px;
+                    background: #5f0000;
+                    transition: all linear .3s;
+                    visibility: hidden;
+                    opacity: 0;
+                    transform: scale(0);
+                }
+            }
+
+            &:hover {
+                a {
+                    color: #5f0000;
+                    transition: all linear 0.3s;
+
+                    &::after {
+                        transform: scale(1);
+                        transition: all linear .2s;
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-light .navbar-toggler {
+
+    color: transparent;
+    border-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #ff3d3d80;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #5f0000;
+}
+
+.menu_fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center !important;
+    padding: 0px 0;
+    background: #ff3d3d80;
+    color: #fff;
+    transition: all linear .3s;
+    z-index: 1000;
+
+
+
+    ul {
+
+        li {
+            a {
+                color: #fff;
+
+                &:hover {
+
+                    color: #5f0000;
+                    transition: all linear 0.3s;
+
+                    &::after {
+                        width: 110%;
+                        background: #5f0000;
+                        visibility: visible;
+                        opacity: 1;
+                    }
+
+                    &::before {
+                        background: #5f0000;
+                        width: 100%;
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*========================================================
+                menu scss end
+========================================================*/

@@ -1,0 +1,91 @@
+/*===========================================================
+                menubook scss start
+===========================================================*/
+#menu_book {
+    padding-top: 63px;
+
+    .common_heading {
+        padding-bottom: 45px;
+
+        h3 {
+            color: #ff3d3d80;
+            font-size: 30px;
+            font-family: 'festive', cursive;
+            font-weight: 600;
+            text-transform: capitalize;
+            padding-bottom: 15px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 39%;
+                bottom: 0px;
+                width: 22%;
+                height: 1px;
+                background: #ff3d3d80;
+            }
+        }
+    }
+
+    .common_menu_heading {
+        color: #ff3d3d80;
+        font-size: 26px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+
+        h3 {
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 40%;
+                bottom: 0px;
+                width: 20%;
+                height: 1px;
+                background: #ff3d3d80;
+            }
+        }
+    }
+
+    .menu_book_name_price {
+        margin-bottom: 15px;
+        margin-right: 40px;
+        border-bottom: #ff3d3d80 1px solid;
+
+        h3 {
+            color: #ff3d3d80;
+            font-size: 24px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding-bottom: 10px;
+        }
+
+        position: relative;
+
+    }
+
+    .name {
+        text-align: start !important;
+    }
+
+    .price {
+        text-align: end !important;
+    }
+
+    .menu_book_row {
+        margin-bottom: 35px;
+    }
+
+    .name_price_col {
+        display: flex !important;
+    }
+}
+
+/*===========================================================
+                menubook scss end
+===========================================================*/

@@ -1,0 +1,1207 @@
+/*==================================================================
+------------------------------------------
+Template Name: Fine Line Bakery Template
+Author: i_Shuayed
+Author Email: islamshuayed@gmail.com
+Version: 1.00
+------------------------------------------
+
+------------------------------------------
+Table of Content
+------------------------------------------
+1.header part
+
+2.menu part
+
+3.banner part
+
+4.gallery part
+
+5.menubook part
+
+6.bakery_members part
+
+7.review part
+
+8.footer part
+
+==================================================================*/
+/*=======================================================
+                index page link up
+=======================================================*/
+/*=======================================================
+                header part link up
+=======================================================*/
+/*========================================================
+                header scss start
+========================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Festive&family=Italianno&display=swap");
+#header {
+  padding: 5px 0;
+  background: #ff3d3d80;
+}
+
+#header .cart_col {
+  text-align: right !important;
+}
+
+#header .menu_cart {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#header .menu_cart .wish {
+  position: relative;
+  margin-right: 30px;
+}
+
+#header .menu_cart .wish a {
+  color: #fff;
+  font-size: 13px;
+  text-align: center !important;
+}
+
+#header .menu_cart .wish a span {
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+  display: block !important;
+}
+
+#header .menu_cart .wish::after {
+  position: absolute;
+  content: '';
+  right: -15px;
+  top: 5px;
+  height: 25px;
+  width: 1px;
+  background: #fff;
+}
+
+#header .menu_cart .wish:last-child::after {
+  background: transparent;
+}
+
+#header .menu_cart .wish:hover a {
+  color: #5f0000;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#header .menu_cart .wish:hover a span {
+  color: #5f0000;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#header .menu_cart .wish:hover a .bell_pop {
+  background: #5f0000;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#header .menu_cart .wish:hover a .bell_pop p {
+  color: #fff;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#header .menu_cart .offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: #ff3d3d80;
+  background-clip: padding-box;
+  outline: 0;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+
+#header .menu_cart .offcanvas_ul {
+  position: relative;
+  text-align: justify;
+}
+
+#header .menu_cart .offcanvas_ul li {
+  margin-bottom: 30px;
+  font-size: 18px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  text-transform: capitalize;
+}
+
+#header .menu_cart .offcanvas_ul li ul {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#header .menu_cart .offcanvas_ul li ul li {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  padding-top: 14px;
+}
+
+#header .menu_cart .bell {
+  position: relative;
+  margin-right: 40px;
+}
+
+#header .menu_cart .bell .bell_pop {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+#header .menu_cart .bell .bell_pop p {
+  font-family: 'Dancing Script', cursive;
+  color: #ff3d3d80;
+  font-size: 10px;
+  text-align: center;
+  line-height: 10px;
+}
+
+#header .menu_cart .carts {
+  margin-right: 0;
+}
+
+#header .offcanvas-header h5 {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+#header .welcome_text h2 {
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#header .welcome_text h2 span {
+  font-size: 24px;
+  font-family: 'Festive', cursive;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#header .icons_texts ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#header .icons_texts ul li a {
+  font-size: 13px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#header .icons_texts ul li a i {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+
+#header .icons_texts ul .li_after {
+  position: relative;
+  margin-left: 20px;
+}
+
+#header .icons_texts ul .li_after::after {
+  position: absolute;
+  content: '';
+  left: -10px;
+  top: 3px;
+  background: #e7e7e7;
+  width: 1px;
+  height: 22px;
+}
+
+/*========================================================
+                header scss end
+========================================================*/
+/*=======================================================
+                header part link up
+=======================================================*/
+/*=======================================================
+                menu part link up
+=======================================================*/
+/*========================================================
+                menu scss start
+========================================================*/
+.main_menu {
+  padding: 10px 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+.main_menu .logo_img img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.main_menu ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.main_menu ul li {
+  margin-right: 30px;
+}
+
+.main_menu ul li:last-child {
+  margin-right: 0;
+}
+
+.main_menu ul li a {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color: #ff3d3d80;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.main_menu ul li a .navbar-light .navbar-nav .nav-link {
+  color: #ff3d3d80;
+}
+
+.main_menu ul li a .navbar-light .navbar-nav .nav-link:hover {
+  color: #5f0000;
+}
+
+.main_menu ul li a::after {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 1px;
+  background: #5f0000;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.main_menu ul li:hover a {
+  color: #5f0000;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.main_menu ul li:hover a::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #ff3d3d80;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #5f0000;
+}
+
+.menu_fix {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center !important;
+  padding: 0px 0;
+  background: #ff3d3d80;
+  color: #fff;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  z-index: 1000;
+}
+
+.menu_fix ul li a {
+  color: #fff;
+}
+
+.menu_fix ul li a:hover {
+  color: #5f0000;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.menu_fix ul li a:hover::after {
+  width: 110%;
+  background: #5f0000;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu_fix ul li a:hover::before {
+  background: #5f0000;
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*========================================================
+                menu scss end
+========================================================*/
+/*=======================================================
+                menu part link up
+=======================================================*/
+/*=======================================================
+                banner part link up
+=======================================================*/
+/*===================================================
+                banner scss start
+===================================================*/
+#banner {
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+}
+
+#banner::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+#banner .banner_text h2 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#banner .banner_text h2 span {
+  display: block;
+}
+
+#banner p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  line-height: 24px;
+  padding: 0 360px;
+}
+
+#banner p span {
+  display: block;
+  padding-bottom: 45px;
+}
+
+#banner a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  padding: 7px 49px;
+  background: #ff3d3d80;
+  margin-right: 25px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+#banner a:last-child {
+  margin-right: 0;
+}
+
+#banner a:hover {
+  color: #5f0000;
+  background: #ffffff80;
+  border-color: #ffffff80;
+}
+
+#banner .banner_text img {
+  width: 350px;
+}
+
+/*===================================================
+                banner scss end
+===================================================*/
+/*=======================================================
+                banner part link up
+=======================================================*/
+/*=======================================================
+                gallery part link up
+=======================================================*/
+/*===================================================
+            Gallery scss start
+===================================================*/
+#gallery {
+  padding-top: 62px;
+}
+
+#gallery .common_heading {
+  padding-bottom: 45px;
+}
+
+#gallery .common_heading h3 {
+  color: #ff3d3d80;
+  font-size: 30px;
+  font-family: 'festive', cursive;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+#gallery .common_heading h3::after {
+  position: absolute;
+  content: '';
+  left: 39%;
+  bottom: 0px;
+  width: 22%;
+  height: 1px;
+  background: #ff3d3d80;
+}
+
+#gallery .col_img {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#gallery .col_img img {
+  width: 100%;
+  height: 100%;
+}
+
+#gallery .col_img::after {
+  position: absolute;
+  content: '';
+  left: 12px;
+  top: 0;
+  width: 91%;
+  height: 0;
+  background: #ff3d3d80;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#gallery .col_img:hover::after {
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+#gallery .col_img:hover a {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#gallery .col_img:hover a:hover {
+  color: #8f0000;
+}
+
+#gallery .col_img:hover a:hover i {
+  color: #8f0000;
+}
+
+#gallery .col_img:hover .corner_overlay {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#gallery .col_img a {
+  position: absolute;
+  left: 34%;
+  bottom: 45%;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+  z-index: 999;
+}
+
+#gallery .col_img a i {
+  margin-left: 7px;
+}
+
+#gallery .col_img .corner_overlay {
+  position: absolute;
+  left: 0px;
+  bottom: -25px;
+  width: 140px;
+  height: 140px;
+  border-radius: 0 20px 0px 0;
+  background: #ffffff90;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#gallery .col_img .corner_overlay p {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  line-height: 26px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+#gallery .col_img .corner_overlay p span {
+  display: block;
+  font-size: 30px;
+}
+
+#gallery .gallery_row {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 135px;
+}
+
+/*===================================================
+            Gallery scss end
+===================================================*/
+/*=======================================================
+                gallery part link up
+=======================================================*/
+/*=======================================================
+                menubook part link up
+=======================================================*/
+/*===========================================================
+                menubook scss start
+===========================================================*/
+#menu_book {
+  padding-top: 63px;
+}
+
+#menu_book .common_heading {
+  padding-bottom: 45px;
+}
+
+#menu_book .common_heading h3 {
+  color: #ff3d3d80;
+  font-size: 30px;
+  font-family: 'festive', cursive;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+#menu_book .common_heading h3::after {
+  position: absolute;
+  content: '';
+  left: 39%;
+  bottom: 0px;
+  width: 22%;
+  height: 1px;
+  background: #ff3d3d80;
+}
+
+#menu_book .common_menu_heading {
+  color: #ff3d3d80;
+  font-size: 26px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+#menu_book .common_menu_heading h3 {
+  position: relative;
+}
+
+#menu_book .common_menu_heading h3::after {
+  position: absolute;
+  content: '';
+  left: 40%;
+  bottom: 0px;
+  width: 20%;
+  height: 1px;
+  background: #ff3d3d80;
+}
+
+#menu_book .menu_book_name_price {
+  margin-bottom: 15px;
+  margin-right: 40px;
+  border-bottom: #ff3d3d80 1px solid;
+  position: relative;
+}
+
+#menu_book .menu_book_name_price h3 {
+  color: #ff3d3d80;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+#menu_book .name {
+  text-align: start !important;
+}
+
+#menu_book .price {
+  text-align: end !important;
+}
+
+#menu_book .menu_book_row {
+  margin-bottom: 35px;
+}
+
+#menu_book .name_price_col {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+/*===========================================================
+                menubook scss end
+===========================================================*/
+/*=======================================================
+                menubook part link up
+=======================================================*/
+/*=======================================================
+                bakery_members part link up
+=======================================================*/
+/*================================================
+            bakery_members scss start
+================================================*/
+#bakery_members {
+  padding-top: 62px;
+}
+
+#bakery_members .baker_slider {
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+}
+
+#bakery_members .baker_slider::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+#bakery_members .common_heading {
+  padding-bottom: 45px;
+}
+
+#bakery_members .common_heading h3 {
+  color: #ff3d3d80;
+  font-size: 30px;
+  font-family: 'festive', cursive;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+#bakery_members .common_heading h3::after {
+  position: absolute;
+  content: '';
+  left: 39%;
+  bottom: 0px;
+  width: 22%;
+  height: 1px;
+  background: #ff3d3d80;
+}
+
+#bakery_members .bekar_img {
+  position: relative;
+  border: 1px solid #ffffff7a;
+  padding: 0 46px;
+  border-radius: 0 6% 0% 6%;
+  cursor: pointer;
+}
+
+#bakery_members .bekar_img img {
+  width: 100%;
+  height: 100%;
+}
+
+#bakery_members .bekar_img .corner_overlay {
+  position: absolute;
+  right: -1px;
+  bottom: 0px;
+  width: 300px;
+  height: 200px;
+  border-radius: 0 6% 0% 6%;
+  background: #ffffff90;
+  z-index: 999;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#bakery_members .bekar_img .corner_overlay p {
+  color: #5f0000;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  bottom: -10%;
+}
+
+#bakery_members .bekar_img .corner_overlay p span {
+  display: block;
+  font-size: 16px;
+}
+
+#bakery_members .bekar_img:hover .corner_overlay {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#bakery_members .slider_bg .slick-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#bakery_members .slider_bg .slick-dots li {
+  margin-right: 5px;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#bakery_members .slider_bg .slick-dots li button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #fff;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#bakery_members .slider_bg .slick-dots .slick-active {
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#bakery_members .slider_bg .slick-dots .slick-active button {
+  width: 20px;
+  height: 20px;
+  background: #5f0000;
+  border: 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+/*================================================
+            bakery_members scss end
+================================================*/
+/*=======================================================
+                bakery_members part link up
+=======================================================*/
+/*=======================================================
+                review part link up
+=======================================================*/
+/*========================================================
+            footer scss start
+========================================================*/
+#review {
+  padding-top: 63px;
+}
+
+#review .review_bg_class {
+  padding: 80px 0;
+}
+
+#review .review_bg {
+  padding: 40px 40px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#review .review_bg h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'festive', cursive;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+#review .review_bg h1::after {
+  position: absolute;
+  content: '';
+  left: 27%;
+  bottom: 0;
+  width: 45%;
+  height: 1px;
+  background: #fff;
+}
+
+#review .review_bg p {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 35px 70px;
+  line-height: 45px;
+}
+
+#review .review_bg span {
+  display: block;
+  padding-top: 50px;
+}
+
+#review .review_row {
+  text-align: center !important;
+  padding: 0 300px;
+}
+
+/*========================================================
+           footer scss end
+========================================================*/
+/*=======================================================
+                review part link up
+=======================================================*/
+/*=======================================================
+                registration part link up
+=======================================================*/
+/*==================================================
+            booking scss start
+==================================================*/
+#booking {
+  padding: 63px 0;
+}
+
+#booking .regi_form {
+  padding: 50px 50px;
+  background: #ff3d3d80;
+}
+
+#booking .regi_form h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'festive', cursive;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 35px;
+  position: relative;
+}
+
+#booking .regi_form h3 span {
+  display: block;
+  color: #fff;
+  font-size: 21px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+#booking .regi_form h3::after {
+  position: absolute;
+  content: '';
+  left: 15%;
+  bottom: 10px;
+  width: 70%;
+  height: 1px;
+  background: #fff;
+}
+
+#booking .regi_form a {
+  margin-top: 55px;
+  padding: 7px 49px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  text-transform: capitalize;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#booking .regi_form a:hover {
+  color: #5f0000;
+  background: #ffffff80;
+  border-color: #ffffff80;
+}
+
+#booking .counter_col {
+  margin: 0;
+}
+
+#booking .counter_part ul li {
+  margin-bottom: 35px;
+  border-bottom: 1px solid #ff3d3d80;
+}
+
+#booking .counter_part ul li i {
+  margin-right: 0;
+  font-size: 50px;
+  color: #ff3d3d80;
+}
+
+#booking .counter_part ul li h4 {
+  color: #ff3d3d80;
+  font-size: 26px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+}
+
+#booking .counter_part ul li h4 span {
+  font-size: 50px;
+  display: block;
+}
+
+#booking .booking_row {
+  margin-top: 0px !important;
+}
+
+#booking .booking_row .booking_text_col p {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  float: left;
+  font-size: 21px;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*==================================================
+            booking scss end
+==================================================*/
+/*=======================================================
+                registration part link up
+=======================================================*/
+/*=======================================================
+                registration part link up
+=======================================================*/
+/*======================================================
+                footer scss start
+======================================================*/
+#footer .footer_bg {
+  padding: 20px 0;
+  background: #ff3d3d80;
+}
+
+#footer .common_footer_text h3 {
+  color: #fff;
+  font-size: 21px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff;
+  padding: 0 0 10px 0;
+  margin-bottom: 15px;
+}
+
+#footer .foot_col ul li {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+#footer .foot_col ul li a {
+  color: #fff;
+}
+
+#footer .foot_col ul li a i {
+  color: #fff;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #ff3d3d80;
+}
+
+#footer .foot_col ul li span {
+  margin-left: 15px;
+}
+
+#footer .foot_col p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 0px;
+  line-height: 36px;
+}
+
+#footer .copyright {
+  margin-top: 30px;
+  position: relative;
+}
+
+#footer .copyright::after {
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: -15px;
+}
+
+#footer .copyright p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+#footer .copyright p span {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'festive', cursive;
+  font-weight: 500;
+}
+
+/*======================================================
+                footer scss end
+======================================================*/
+/*=======================================================
+                registration part link up
+=======================================================*/
+/*=======================================================
+                index page link up
+=======================================================*/
+/*=======================================================
+                common page link up
+=======================================================*/
+/*========================================================
+            common scss start            
+========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*========================================================
+common scss end            
+========================================================*/
+/*=======================================================
+                common page link up
+=======================================================*/
+/*# sourceMappingURL=style.css.map */
